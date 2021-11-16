@@ -29,11 +29,12 @@ class moja_lista{
             d[i]=min(d[i*2+1],d[i*2+2]);
         }
     }
-    vector <int> zejscie(int c){
+    vector <izejscie(int c){
         
         if(c<n-1){
-            if(d[c]==d[2*c+1])
-        }
+            if(d[c]==d[2*c+1]) zejscie(c*2+1);
+            if(d[c]==d[2*c+2]) zejscie(c*2+2);
+        }else{}
     }
     
 };
